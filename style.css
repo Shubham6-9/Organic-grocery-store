@@ -1,0 +1,66 @@
+.offcanvas-body1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.offcanvas-body1 ul{
+    list-style: none;
+}
+.drpdwn ul a{
+    color: grey;
+}
+.search-bar, .search-bar input{
+    background-color: rgba(128, 128, 128, 0.081);
+    border-radius: 5px;
+}
+.nav-div3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav>div>div:last-child a, nav>div>div:last-child button{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.pro-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pro-name:last-child{
+    font-weight: 400;
+}
+.des{
+    margin-top: -12px;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.pri{
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
+.pri:last-child{
+    font-weight: 600;
+}
+.offcanvas-body2 a>div{
+    background-color: rgb(74, 193, 74);
+    color: white;
+    border-radius: 8px;
+    line-height: 50px;
+}
+.offcanvas-body2 a>div:hover{
+    background-color: orange;
+}
+#bgimg{
+    height: 720px;
+    width: 100%;
+    background-image: url("./image/bgimg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+#bgimg h1{
+    font-size: 80px;
+}
