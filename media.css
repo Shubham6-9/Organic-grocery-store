@@ -1,0 +1,34 @@
+@media (min-width: 1440px){
+    .feature{
+        width: 109%;
+        position: relative;
+        left: -35px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1439px){
+    #bgimg h1{
+        font-size: 68px;
+    }
+} 
+@media (min-width: 569px) and (max-width: 768px){
+    #bgimg h1{
+        font-size: 60px;
+    }
+    #bgimg>div{
+        width: 100%;
+    }
+    .feature i{
+        font-size: 30px;
+    }
+}
+@media (max-width: 569px){
+    #bgimg h1{
+        font-size: 45px;
+    }
+    #bgimg>div:first-child{
+        width: 100%;
+    }
+    .feature i{
+        font-size: 30px;
+    }
+}

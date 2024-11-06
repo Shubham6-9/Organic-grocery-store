@@ -54,13 +54,51 @@ nav>div>div:last-child a, nav>div>div:last-child button{
     background-color: orange;
 }
 #bgimg{
-    height: 720px;
     width: 100%;
     background-image: url("./image/bgimg.jpg");
     background-size: cover;
-    background-position: center;
     position: absolute;
+    left: 0px;
+}
+#bgimg>div:first-child{
+    width: 45%;
 }
 #bgimg h1{
     font-size: 80px;
+    font-weight: 400;
+}
+#bgimg span{
+    color: #6bb252;
+    font-weight: 700;
+}
+#bgimg button{
+    padding: 15px 0px;
+}
+#bgimg button:first-child{
+    background-color: #6bb252;
+    color: white;
+}
+#bgimg button:last-child{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+}
+#bgimg h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.feature{
+    color: white;
+    line-height: 28px;
+}
+.feature i{
+    font-size: 40px;
+}
+.feature>div:first-child{
+    background-color: #6BB252;
+}
+.feature>div:nth-child(2){
+    background-color: #364127;
+}
+.feature>div:last-child{
+    background-color: #F95F09;
 }
