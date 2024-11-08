@@ -54,11 +54,12 @@ nav>div>div:last-child a, nav>div>div:last-child button{
     background-color: orange;
 }
 #bgimg{
-    width: 100%;
+    height: auto;
+    width: 101.6%;
     background-image: url("./image/bgimg.jpg");
     background-size: cover;
-    position: absolute;
-    left: 0px;
+    position: relative;
+    left: -12px;
 }
 #bgimg>div:first-child{
     width: 45%;
@@ -89,6 +90,7 @@ nav>div>div:last-child a, nav>div>div:last-child button{
 .feature{
     color: white;
     line-height: 28px;
+    width: 100%;
 }
 .feature i{
     font-size: 40px;
@@ -101,4 +103,151 @@ nav>div>div:last-child a, nav>div>div:last-child button{
 }
 .feature>div:last-child{
     background-color: #F95F09;
+}
+.card{
+    border: 0px;
+}
+.item a{
+    text-decoration: none;
+}
+.bsp>.col{
+    transition: 0.5s ease;
+    height: 430px;
+}
+.buy input, .buy button:nth-child(2), .buy button:last-child{
+    display: none;
+}
+.buy input{
+    height: 40px;
+    width: 22%;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.buy button:nth-child(2){
+    height: 40px;
+    width: 60%;
+    padding: 3px 5px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #6BB252;
+    color: white;
+}
+.buy button:nth-child(2):hover{
+    background-color: orange;
+}
+.buy button:last-child{
+    width: 15%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: white;
+}
+.buy button:last-child:hover{
+    background-color: black;
+    color: white;
+}
+.bsp>.col:hover{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .buy input, .buy button:nth-child(2), .buy button:last-child{
+        display: block;
+    }
+}
+.rating{
+    margin-top: -5px;
+}
+.rating i{
+    color: gold;
+}
+.rating span{
+    color: grey;
+}
+.price{
+    margin: -13px;
+}
+.price>span:first-child{
+    font-size: 17px;
+    color: grey;
+    text-decoration: line-through;
+}
+.price>span:nth-child(2){
+    font-weight: 700;
+    font-size: 17px;
+}
+.price>span:last-child{
+    margin-top: 5px;
+    padding: 2px 4px;
+    font-size: 12px;
+    color: grey;
+    border: 1px solid grey;
+}
+#banner-1{
+    height: 450px;
+    width: 100%;
+    background-image: url("./image/banner-ad-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#banner-2{
+    height: 210px;
+    width: 100%;
+    background-image: url("./image/banner-ad-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#banner-3{
+    height: 210px;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    background-image: url("./image/banner-ad-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#banner-1 h4, #banner-2 h4, #banner-3 h4{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 6%;   
+    top: 30%;
+}
+#banner-1 p, #banner-2 p, #banner-3 p{
+    color: white;
+    position: relative;
+    left: 6%;   
+    top: 30%;
+}
+#banner-1 a, #banner-2 a, #banner-3 a{
+    text-decoration: underline;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    left: 6%;   
+    top: 32%;
+}
+.bgimg2{
+    width: 100%;
+    height: auto    ;
+    background-image: url("./image/banner-newsletter.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bgimg2 h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+form{
+    margin-top: 35px;
+}
+form input{
+    margin: 8px 0px;
+    padding: 5px 5px 5px 10px;
+    width: 80%;
+}
+form input[type="submit"]{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border: 0px;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(68, 68, 68);
 }

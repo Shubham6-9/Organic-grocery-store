@@ -1,16 +1,22 @@
-@media (min-width: 1440px){
-    .feature{
-        width: 109%;
-        position: relative;
-        left: -35px;
-    }
-}
 @media (min-width: 1024px) and (max-width: 1439px){
+    #bgimg{
+        width: 102.5%;
+    }
     #bgimg h1{
         font-size: 68px;
     }
+    .feature{
+        position: relative;
+        left: 3%
+    }
+    .bgimg2 h1{
+        font-size: 30px;
+    }
 } 
 @media (min-width: 569px) and (max-width: 768px){
+    #bgimg{
+        width: 103.4%;
+    }
     #bgimg h1{
         font-size: 60px;
     }
@@ -22,6 +28,9 @@
     }
 }
 @media (max-width: 569px){
+    #bgimg{
+        width: 110%;
+    }
     #bgimg h1{
         font-size: 45px;
     }
@@ -31,4 +40,7 @@
     .feature i{
         font-size: 30px;
     }
+    /* .bgimg2{
+        height: ;
+    } */
 }
