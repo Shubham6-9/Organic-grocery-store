@@ -110,6 +110,9 @@ nav>div>div:last-child a, nav>div>div:last-child button{
 .item a{
     text-decoration: none;
 }
+.bsp{
+    width: 100%;
+}
 .bsp>.col{
     transition: 0.5s ease;
     height: 430px;
